@@ -17,8 +17,6 @@ let betterWords = storyWords.filter(function(element) {
 
     console.log(betterWords);
 
-let wordCounts = {};
-
 
 betterWords.forEach(function(word) {
     if (overusedWords.includes(word)) {
